@@ -1,0 +1,6 @@
+Agent-Class: com.agent.MyInstrumentationAgent
+Premain-Class: com.agent.MyInstrumentationAgent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Main-Class: com.agent.AgentLoader
+
