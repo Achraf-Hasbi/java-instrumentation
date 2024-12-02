@@ -6,9 +6,9 @@ import org.slf4j.LoggerFactory;
 import java.lang.instrument.Instrumentation;
 import java.lang.instrument.UnmodifiableClassException;
 
-public class MyInstrumentationAgent {
+public class InstrumentationAgent {
 
-    private static Logger LOGGER = LoggerFactory.getLogger(MyInstrumentationAgent.class);
+    private static Logger LOGGER = LoggerFactory.getLogger(InstrumentationAgent.class);
 
     private static String className = "com.application.VendingMachine";
 
